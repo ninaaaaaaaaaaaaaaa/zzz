@@ -45,7 +45,7 @@ header{
 }
 table {
   border-collapse: collapse;
-  width: 80%;
+  width: 100%;
 }
 
 table th,
@@ -54,8 +54,7 @@ table td{
   padding: 15px;
 }
 .recruit{
-  margin: 100px 10%;
-  width: 100%;
+  margin: 13% 10%;
 }
 table th{
   background-color:rgb(227, 234, 236);
@@ -65,7 +64,7 @@ table th{
   font-weight: bold;
   border-bottom: 1px solid black;
   padding-bottom: 8px;
-  width: 80%;
+  width: 100%;
 }
 .rec-td{
   padding: 20px 0;
@@ -107,11 +106,13 @@ footer{
 }
 .footer-i{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
 }
 .footer-nav-list{
-  display: flex;;
+  display: flex;
+  flex-wrap: wrap;
 }
 .footer-nav-item{
   padding-left: 10px;
@@ -225,4 +226,32 @@ footer{
     transform: rotate(-45deg);
   }
 
+}
+@media screen and (max-width: 768px) {
+  
+
+  
+.inc {
+    margin: auto;
+  }
+
+  .footer-nav-item {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .footer-nav-item{
+    border-right: none;
+  }
+  .footer-nav{
+    width: 50%;
+  }
+}
+@media screen and (max-width:480px){
+  .footer-nav{
+    width: auto;
+  }
+
+  
 }

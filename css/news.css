@@ -66,7 +66,7 @@ header{
   font-size: 16px;
 }
 .news{
-  margin: 60px 170px;
+  margin: 11% 4%;
 }
 .service__btn{
   display: block;
@@ -105,11 +105,13 @@ footer{
 }
 .footer-i{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   color: #fff;
 }
 .footer-nav-list{
-  display: flex;;
+  display: flex;
+  flex-wrap: wrap;
 }
 .footer-nav-item{
   padding-left: 10px;
@@ -223,4 +225,32 @@ footer{
     transform: rotate(-45deg);
   }
 
+}
+@media screen and (max-width: 768px) {
+  
+
+  
+.inc {
+    margin: auto;
+  }
+
+  .footer-nav-item {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .footer-nav-item{
+    border-right: none;
+  }
+  .footer-nav{
+    width: 50%;
+  }
+}
+@media screen and (max-width:480px){
+  .footer-nav{
+    width: auto;
+  }
+
+  
 }

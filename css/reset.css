@@ -200,3 +200,31 @@ input, select {
   }
 
 }
+@media screen and (max-width: 768px) {
+  
+
+  
+.inc {
+    margin: auto;
+  }
+
+  .footer-nav-item {
+    text-align: center;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .footer-nav-item{
+    border-right: none;
+  }
+  .footer-nav{
+    width: 50%;
+  }
+}
+@media screen and (max-width:480px){
+  .footer-nav{
+    width: auto;
+  }
+
+  
+}
